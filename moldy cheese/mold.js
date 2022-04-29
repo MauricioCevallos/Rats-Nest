@@ -1,10 +1,11 @@
-//sketch for first page
+// sketch for rotating block of moldy cheese
 let img;
-let audio = new Audio('Palpatines_Teachings.mp3'); 
+
+let audio = new Audio('moldy.mp3'); 
 
 function preload() {
     //img = loadImage("cheese.jpg");
-    img = loadImage('https://t3.ftcdn.net/jpg/02/45/86/92/360_F_245869234_UyHEzCOoRDYLdS54XBsB1Hvv4sNfj2q4.jpg');
+    img = loadImage('https://media.istockphoto.com/photos/blue-cheese-picture-id117695864?k=20&m=117695864&s=612x612&w=0&h=Mws5MksKvvQM2moJvtmnIQUjjlQnxUqsWq__vGL07QA=');
 }
 
 function setup() {

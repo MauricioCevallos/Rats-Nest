@@ -1,7 +1,6 @@
 let device;
 
 
-
 if(navigator.requestMIDIAccess){
     navigator.requestMIDIAccess().then(success,failure);
 }
@@ -89,28 +88,15 @@ function handleInput(input){
 function noteOn(note){
     console.log(`note:${note} //on`);
    
-    if (note == 88){
-        location = "holy cheese/cheese.html";
-    }
-
-    if (note == 59){
-        location = "moldy cheese/moldy.html";
-        colorKeys(54, 5);
-        colorKeys(85, 5);
-
-    }
-
-    if (note == 38){
-        location = "hell/hell.html";
-        colorKeys(54, 5);
-        colorKeys(85, 5);
+    if (note){
+        location= "../index.html"
     }
 
 }
 
 function noteOff(note){
    
-
+  
 }
 
 
