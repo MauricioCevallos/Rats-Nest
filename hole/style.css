@@ -1,0 +1,19 @@
+body{
+    
+    background: black;
+    background-image: url('throne.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 80% 95%;
+}
+
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 10%;
+    
+        
+}

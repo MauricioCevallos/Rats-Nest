@@ -10,7 +10,56 @@
     <script src= "../getBack.js"> </script> 
 </head>
 <body>
+    <img id ="throne" src="https://loremflickr.com/320/240/cat" >
     
 
 </body>
+<!-- <script>
+    
+    function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+    var delayInMilliseconds = 2000; //2 second
+    let site = "https://loremflickr.com/320/240/cat";
+
+    for(i = 0; i < 499; i++){
+        //sleep(1000);
+        // Code to run after the pause
+        document.getElementById("throne").innerHTML = `https://loremflickr.com/320/240/cat?random=${i}`;
+        console.log("changed");
+        i++;
+        
+    }
+  
+</script> -->
+<script>
+    let audio = new Audio('hell.mp3'); 
+    let i = 0;
+    function setup(){
+
+    }
+    function draw(){
+        //document.getElementById("throne").innerHTML = `https://loremflickr.com/320/240/cat?random=${i}`;
+        if (mouseIsPressed === true) {
+            audioPlay();
+        }
+        //i++;
+    }
+
+    //playing audio
+    function audioPlay(){    
+        audio.play();
+    }
+
+    function audioPause(){
+        audio.pause();
+    }
+
+</script>
 </html>

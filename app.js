@@ -93,17 +93,25 @@ function noteOn(note){
         location = "holy cheese/cheese.html";
     }
 
-    if (note == 59){
-        location = "moldy cheese/moldy.html";
+    if (note == 65){
         colorKeys(54, 5);
         colorKeys(85, 5);
+        location = "moldy cheese/moldy.html";
+        
 
     }
 
     if (note == 38){
-        location = "hell/hell.html";
         colorKeys(54, 5);
         colorKeys(85, 5);
+        location = "hell/hell.html";
+        
+    }
+
+    if (note == 79){
+        colorKeys(54, 5);
+        colorKeys(85, 5);
+        location = "hole/hole.html"
     }
 
 }
