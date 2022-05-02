@@ -18,10 +18,6 @@ function draw() {
   rotateY(frameCount * 0.01);
   
 
-
-  noStroke();
-  let locX = mouseX - width / 2;
-  let locY = mouseY - height / 2;
   ambientLight(200, 200, 200);
   pointLight(255, 255, 255, 0, -height/2, 100);
   specularMaterial(250);

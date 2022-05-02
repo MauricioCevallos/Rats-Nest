@@ -111,7 +111,11 @@ function noteOn(note){
     if (note == 79){
         colorKeys(54, 5);
         colorKeys(85, 5);
-        location = "hole/hole.html"
+        location = "hole/hole.html";
+    }
+
+    if (note == 57){
+        location = "moon/moon.html";
     }
 
 }
