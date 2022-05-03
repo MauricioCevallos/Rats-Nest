@@ -118,6 +118,10 @@ function noteOn(note){
         location = "moon/moon.html";
     }
 
+    if (note == 45){
+        location = "itchyNscratchy/itchyNscratchy.html";
+    }
+
 }
 
 function noteOff(note){
