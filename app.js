@@ -122,6 +122,12 @@ function noteOn(note){
         location = "itchyNscratchy/itchyNscratchy.html";
     }
 
+    if (note == 51){
+        colorKeys(54, 5);
+        colorKeys(85, 5);
+        location = "trap/trap.html";
+    }
+
 }
 
 function noteOff(note){
