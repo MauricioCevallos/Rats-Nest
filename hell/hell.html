@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<httpSession cookieSameSite="None"/>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,9 +46,11 @@
 
     }
     function draw(){
-        //document.getElementById("throne").innerHTML = `https://loremflickr.com/320/240/cat?random=${i}`;
+        // document.getElementById("throne").src = `https://loremflickr.com/320/240/cat?random=${i}`;
         if (mouseIsPressed === true) {
             audioPlay();
+            document.getElementById("throne").src = `https://loremflickr.com/320/240/cat?random=${i}`;
+            i++;
         }
         //i++;
     }
